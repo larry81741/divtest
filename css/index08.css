@@ -4,38 +4,44 @@
     background-color: aqua;
     float: left;
 }
-.box2{
-    width: 50px;
-    height: 100px;
-    background-color:blue;    
-    float: left;
-    clear: left;
-}
 .mid{
 float: left;
 clear: left;
 }
+.m1{
+float: left;
+}
+.box2{
+    width: 50px;
+    height: 100px;
+    background-color:blue;    
+float: left;
+}
 
+.m1-1{
+    float: left;
+}
 .box3{
     width: 200px;
     height:calc(100px / 3);;
     background-color:green;
-float: right;
-clear: right;
+
 }
 .box4{
     width: 200px;
     height:calc(100px / 3);;
     background-color:hotpink;
-float: left;
-clear: left;
+
 }
 
 .box5{
     width: 200px;
     height:calc(100px / 3);
     background-color:lightgreen;
-
+}
+.m2{
+    float: left;
+    clear: left;
 }
 .box6{
     width:250px;
@@ -49,17 +55,19 @@ clear: left;
     height:calc(100px / 3);;
     background-color:hotpink;
 
+
 }
-.box8{
-    width: 50px;
-    height:150px;
+.box8{  
+
     background-color:indigo;
-
-
+    width: 50px;
+    height:calc(100px + 100px / 3 * 2);
+    float: left;
 }
 .box9{
     width: 300px;
     height: 100px;
     background-color:khaki;
+clear: left;
 
 }
